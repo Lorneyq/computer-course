@@ -1,0 +1,50 @@
+html,
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: var(--white);
+	height: 100%;
+	background-color: var(--black);
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 0 15px;
+  }
+  
+  .container-fuild{
+	  max-width: 1920px;
+	  margin: 0 auto;
+	  padding: 0 15px;
+  }
+  
+  .title{
+	  font-size: 48px;
+	  line-height: 67px;
+  }
+
+img{
+	user-select: none;
+}
+
+button{
+	cursor: pointer;
+}

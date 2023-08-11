@@ -1,0 +1,241 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Corgo Course
+        link(rel="stylesheet", href="./css/style.min.css")
+        include layout/favicon
+    body
+        .wrapper
+            include layout/header
+            main.main
+                section.about-us
+                    .container-fuild
+                        .about-us__inner
+                            .about-us__info
+                                h2.about-us__title.title О НАС
+                                p Мы - компания Corgo из Минска. Мы занимаемся профессиональной сборкой и обслуживанием компьютерных технологий. Сотрудничаем с такими компаниями, как: Intel, Intel, Intel и <a href='#'>прочими.</a>
+                                p Мы хотим развивать отросль, обучать людей, в дальнейшем полноценно выходить на Европейский рынок. С этой целью мы открываем свой курс по сборке, кастомизации ПК.
+                                a(href='#') Присоединяйся!
+                            .about-us__logo
+                                img(src='./images/logo-large.png' draggable="false" alt='Logo')
+                                p Логотип Corgo Computers <span>©</span>
+                section.advantages#about-course
+                    .container
+                        h2.advantages__title.title Преимущества нашего курса
+                        .advantages__cards
+                            .advantages__card
+                                img.advantages__card-img(src='./images/card-1.png' alt='Card')
+                                h4.advantages__card-title Очень важное преимущество №2
+                                p.advantages__card-text Здесь к примеру, мог бы быть интересный и завлекающий пользователя текст. Получать новую профессию всегда интересно и полезно. Как по мне, сборка и обслуживание ПК и т.п - очень важна.
+                            .advantages__card
+                                img.advantages__card-img(src='./images/card-2.png' alt='Card')
+                                h4.advantages__card-title Очень важное преимущество №2
+                                p.advantages__card-text Здесь к примеру, мог бы быть интересный и завлекающий пользователя текст. Получать новую профессию всегда интересно и полезно. Как по мне, сборка и обслуживание ПК и т.п - очень важна.
+                            .advantages__card
+                                img.advantages__card-img(src='./images/card-3.png' alt='Card')
+                                h4.advantages__card-title Очень важное преимущество №3
+                                p.advantages__card-text Здесь к примеру, мог бы быть интересный и завлекающий пользователя текст. Получать новую профессию всегда интересно и полезно. Как по мне, сборка и обслуживание ПК и т.п - очень важна.
+                section.program#program-course
+                    .container
+                        h2.program__title.title ПРОГРАММА КУРСА
+                        ol.program__drop
+                            li.program__drop-item
+                                h2.program__drop-title.active Введение
+                                .program__drop-content.program__drop-content--show
+                                    ul.program__drop-list
+                                        li
+                                            span Урок 1. На вводном уроке мы изучим:
+                                            br
+                                            | Классификацию и области применения компьютеров.
+                                            br
+                                            | Историю и сфера использования IBM PC.
+                                            br
+                                            | Разновидности системных блоков ПК.
+                            li.program__drop-item
+                                h2.program__drop-title Обзор составляющих системной платы
+                                .program__drop-content
+                                    ul.program__drop-list
+                                        li
+                                            span Урок 2. На этом уроке мы узнаем что такое:
+                                            br
+                                            | Чипсеты, сокеты, слоты, порты, питание, и т.д
+                                            br
+                                            | Форм-факторы. 
+                                            br
+                                            | Основы материнской платы.
+                            li.program__drop-item
+                                h2.program__drop-title Основные элементы IBM PC
+                                .program__drop-content
+                                    ul.program__drop-list
+                                        li
+                                            span Урок 3. На этом уроке мы узнаем что такое:
+                                            br
+                                            | Память: ПЗУ, ОЗУ, Flash. 
+                                            br
+                                            | Типы и характеристики оперативной памяти. 
+                                            br
+                                            | Платы расширений. 
+                                            br
+                                            | Внешние устройства ввода/вывода. 
+                                            br
+                                            | Дополнительные устройства системного блока.
+                            li.program__drop-item
+                                h2.program__drop-title Диагностика IBM PC
+                                .program__drop-content
+                                    ul.program__drop-list
+                                        li
+                                            span Урок 4. На данном уроке мы:
+                                            br
+                                            | Разберём различные поломки и неисправности.
+                                            br
+                                            | Определим поломки и их устранение. 
+                                            br
+                                            | Изучим искусство пайки (практикум). 
+                                            br
+                                            | Разберём блок питания, ремонт блока питания.
+                            li.program__drop-item
+                                h2.program__drop-title Системы охлаждения
+                                .program__drop-content
+                                    ul.program__drop-list
+                                        li
+                                            span Урок 5. На этом уроке мы разберём:
+                                            br
+                                            | Обзор систем охлаждения различных элементов ПК.
+                                            br
+                                            | Изучение нормальных температур для компьютера.
+                                            br
+                                            | Особенности теплопроводных паст. 
+                                            br
+                                            | Ремонт систем охлаждения.
+                            li.program__drop-item
+                                h2.program__drop-title БИОС
+                                .program__drop-content
+                                    ul.program__drop-list
+                                        li
+                                            span Урок 6
+                                            br
+                                            | Обзор БИОСа. 
+                                            br
+                                            | Изучение различных функций БИОСа.
+                                            br
+                                            | Настройка БИОСа. 
+                                            br
+                                            | Настройка оборудования через БИОС.
+                            li.program__drop-item
+                                h2.program__drop-title Подбор комплектующих ПК
+                                .program__drop-content
+                                    ul.program__drop-list
+                                        li
+                                            span Урок 7
+                                            br
+                                            | Изучение современного рынка ПК. 
+                                            br
+                                            | Подбор комплектующих под задачи заказчика. 
+                                            br
+                                            | Составление прайса (сметы).
+                            li.program__drop-item
+                                h2.program__drop-title Сборка ПК
+                                .program__drop-content
+                                    ul.program__drop-list
+                                        li
+                                            span Урок 8. Зачет
+                                            br
+                                            | Сборка ПК. 
+                                            br
+                                            | Установка ОС. 
+                                            br
+                                            | Начальная настройка.
+                section.students-work
+                    .container
+                        h2.students-work__title.title Где работают наши ученики
+                        .students-work__content
+                            .students-work__content-item
+                                img.students-work__item-img(src='./images/brands/intel-logo.png' alt='Intel')
+                            .students-work__content-item
+                                img.students-work__item-img(src='./images/brands/samsung-logo.png' alt='Samsung')
+                            .students-work__content-item
+                                img.students-work__item-img(src='./images/brands/kyivstar-logo.png' alt='Kyivstar')
+                            .students-work__content-item
+                                img.students-work__item-img(src='./images/brands/allo-logo.png' alt='Allo')
+                            .students-work__content-item
+                                img.students-work__item-img(src='./images/brands/mobilochka-logo.png' alt='Mobilochka')
+                            .students-work__content-item
+                                img.students-work__item-img(src='./images/brands/xiaomi-logo.png' alt='Xiaomi')
+                            .students-work__content-item
+                                img.students-work__item-img(src='./images/brands/samsung-logo.png' alt='Samsung')
+                            .students-work__content-item
+                                img.students-work__item-img(src='./images/brands/intel-logo.png' alt='Intel')
+                            .students-work__content-item
+                                img.students-work__item-img(src='./images/brands/allo-logo.png' alt='Allo')
+                            .students-work__content-item
+                                img.students-work__item-img(src='./images/brands/kyivstar-logo.png' alt='Kyivstar')
+                            .students-work__content-item
+                                img.students-work__item-img(src='./images/brands/mobilochka-logo.png' alt='Mobilochka')
+                            .students-work__content-item
+                                img.students-work__item-img(src='./images/brands/xiaomi-logo.png' alt='Xiaomi')
+                section.reviews#reviews-course
+                    .container-fuild
+                        h2.reviews__title.title ОТЗЫВЫ
+                        .reviews__slider.swiper
+                            .reviews__slide-container.swiper-wrapper
+                                .reviews__slider-item.swiper-slide
+                                    a.reviews__slider-text(href="#") Спасибо этому курсу, благодаря него я научился собирать компьютеры. А это очень крутой навык. Куда деваться. Мир IT. В него необходимо войти.
+                                    a.reviews__slider-author(href="#") Андрей Петров
+                                .reviews__slider-item.swiper-slide
+                                    a.reviews__slider-text(href="#") Благодаря этому курсу можно определиться с тем, готов ли ты посветить жизнь технологиям, вообще, интересно ли тебе это в той степени, чтобы и дальше в этом развиватьяс. Курсом я полностью доволен. Спасибо вам!
+                                    a.reviews__slider-author(href="#") Андрей Петров
+                                .reviews__slider-item.swiper-slide
+                                    a.reviews__slider-text(href="#") Спасибо этому курсу, благодаря него я научился собирать компьютеры. А это очень крутой навык. Куда деваться. Мир IT. В него необходимо войти. Также, благодаря этому курсу можно определиться с тем, готов ли ты посветить жизнь технологиям, вообще, интересно ли тебе это в той степени, чтобы и дальше в этом развиватьяс. Курсом я полносытью доволен. Спасибо вам!
+                                    a.reviews__slider-author(href="#") Андрей Петров
+                                .reviews__slider-item.swiper-slide
+                                    a.reviews__slider-text(href="#") Спасибо этому курсу, благодаря него я научился собирать компьютеры. Это очень крутой навык. Курсом я полностью доволен. Спасибо вам!
+                                    a.reviews__slider-author(href="#") Андрей Петров
+                                .reviews__slider-item.swiper-slide
+                                    a.reviews__slider-text(href="#") Спасибо этому курсу, благодаря него я научился собирать компьютеры. А это очень крутой навык. Куда деваться. Мир IT. В него необходимо войти.
+                                    a.reviews__slider-author(href="#") Андрей Петров
+                                .reviews__slider-item.swiper-slide
+                                    a.reviews__slider-text(href="#") Спасибо этому курсу, благодаря него я научился собирать компьютеры. А это очень крутой навык. Куда деваться. Мир IT. В него необходимо войти. Также, благодаря этому курсу можно определиться с тем, готов ли ты посветить жизнь технологиям, вообще, интересно ли тебе это в той степени, чтобы и дальше в этом развиватьяс. Курсом я полностью доволен. Спасибо вам!
+                                    a.reviews__slider-author(href="#") Андрей Петров
+                        .reviews__more
+                            a(href='#') БОЛЬШЕ ОТЗЫВОВ <br> читать здесь
+                section.price#purchase
+                    .container-fuild
+                        h2.price__title.title ЦЕНЫ
+                        .price__box
+                            .price__info
+                                h3.price__info-title $99 <span>за полный пакет - 1 месяц</span>
+                                h4.price__desc Что входит в курс
+                                ul.price__list
+                                    li.price__list-item 8 доступных уроков
+                                    li.price__list-item Стабильная практика
+                                    li.price__list-item Цены ниже чем у кокурентов
+                                    li.price__list-item Советы по монетизации*
+                            a.price__btn(href='#') Оплатить
+                            img.price__logo(src='./images/logo-large.png', draggable="false", alt='Logo')
+        section.connect-us#contact 
+            .container 
+                h2.title Связяться с нами
+                form
+                    input(type='email' placeholder='E-mail' required)
+                    textarea#form-message(rows='2' onkeyup='textarea_resize(event, 22, 5);' placeholder='Ваше сообщение' required)
+                    #form-message_div
+                    button.connect-us__button Отправить
+                ul.social-list
+                    li.social-list__item(title="Мы в VK")
+                        a(href='#')
+                            img(src='./images/icons/social-media/vk.svg' alt='VK')
+                    li.social-list__item(title="Мы на YouTube")
+                        a(href='#')
+                            img(src='./images/icons/social-media/youtube.svg' alt='YouTube')
+                    li.social-list__item(title="Мы в Facebook")
+                        a(href='#')
+                            img(src='./images/icons/social-media/facebook.svg' alt='Facebook')
+                    li.social-list__item(title="Мы в Instagram")
+                        a(href='#')
+                            img(src='./images/icons/social-media/instagram.svg' alt='Instagram')
+
+                include layout/footer
+        script(src="./js/main.min.js", type="")
