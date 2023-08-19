@@ -1,4 +1,4 @@
-<div align='center'><img src='https://corgo-course.vercel.app/images/logo.png' alt='Mineshop'/></div>
+<div align='center'><img src='https://corgo-course.vercel.app/images/logo.png' alt='Corgo Course'/></div>
 
 # Corgo Course - Landing
 
