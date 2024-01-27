@@ -43,4 +43,4 @@ That's it, the whole project is up and running. Congratulations!🎉🥳
 
 👉[Live demo](https://corgo-course.vercel.app/)
 
-![Corgo Course demo](https://lorneyq.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcorgo-course.be7d7047.jpg&w=3840&q=75)
+![Corgo Course demo](https://api-lorneyq.online/media/projects/corgo-course.jpg)
